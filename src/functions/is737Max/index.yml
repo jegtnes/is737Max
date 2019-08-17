@@ -1,0 +1,9 @@
+is737Max:
+  handler: src/functions/is737Max/index.default
+  events:
+    - http:
+        path: is737Max
+        method: get
+  environment:
+    localID: ${file(.env/keys.yml):flightstats_appID}
+    localKey: ${file(.env/keys.yml):flightstats_appKey}

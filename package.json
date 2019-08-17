@@ -1,5 +1,5 @@
 {
-  "name": "./737maxcheck",
+  "name": "SevenThreeSevenMaxCheck",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -28,10 +28,15 @@
     "serverless": "^1.47.0",
     "serverless-iam-roles-per-function": "^2.0.1",
     "serverless-offline": "^5.7.3",
-    "serverless-plugin-stage-variables": "^1.9.2",
+    "serverless-plugin-stage-variables": "^1.9.5",
     "serverless-webpack": "^5.3.1",
     "webpack": "^4.36.0",
     "webpack-node-externals": "^1.7.2"
+  },
+  "eslintConfig": {
+    "globals": {
+      "fetch": false
+    }
   },
   "husky": {
     "hooks": {

@@ -11,7 +11,7 @@ provider:
 # and parsing works (in an ideal world we could include these in a list as we do
 # for resources).
 functions:
-  hello: ${file(src/functions/hello/index.yml):hello}
+  is737Max: ${file(src/functions/is737Max/index.yml):is737Max}
 
 # Custom AWS resource definitions. This includes anything that the Serverless
 # framework doesn't handle for us, such as database setup, and overrides of
